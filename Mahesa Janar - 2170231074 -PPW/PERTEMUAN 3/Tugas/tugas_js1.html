@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Tugas 1</title>
+    <style>
+      fieldset {
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        background-color: azure;
+        font-family: Verdana;
+      }
+    </style>
+  </head>
+
+  <body>
+    <br /><br />
+    <fieldset>
+      <legend>Konversikan Nilai ANGKA Mu, Menjadi Nilai HURUF</legend>
+      <br />
+      <form method="POST" name="send">
+        <label for="inpt">MASUKAN NILAI ANGKA MU :</label>
+        <input id="inpt" type="number" placeholder="Nilai Angka" name="T1" />
+        <br /><br />
+        <input type="button" value="KONVERSIKAN" name="B1" onclick="test()" />
+        <br /><br />
+        <label>NILAI HURUF MU ADALAH :</label>
+        <input type="text" name="T2" disabled="true" />
+        <input type="reset" />
+      </form>
+    </fieldset>
+    <script src="script_tgs1.js"></script>
+  </body>
+</html>

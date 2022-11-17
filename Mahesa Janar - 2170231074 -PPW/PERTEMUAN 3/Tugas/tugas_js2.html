@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Tugas 2</title>
+    <style>
+      fieldset {
+        width: 25%;
+        margin: auto;
+        text-align: center;
+        background-color: azure;
+        font-family: Verdana;
+      }
+    </style>
+  </head>
+
+  <body>
+    <br /><br />
+    <fieldset>
+      <legend>Aplikasi Program Kalkulator Sederhana</legend>
+      <form name="form1" action="#">
+        <p>
+          BIL 1
+          <input type="number" name="x" />
+        </p>
+        <p>
+          BIL 2
+          <input type="number" name="y" />
+        </p>
+        <p>HASIL <input type="text" name="hasil" disabled="true" /></p>
+        OPERATOR
+        <select name="opt">
+          <option value="tambah">+ (TAMBAH)</option>
+          <option value="kurang">- (KURANG)</option>
+          <option value="kali">* (KALI)</option>
+          <option value="bagi">/ (BAGI)</option>
+        </select>
+        <input type="button" value="=" onClick="hitung()" />
+        <input type="reset" />
+      </form>
+    </fieldset>
+    <!-- file eksternal Js -->
+    <script src="script_tgs2.js"></script>
+  </body>
+</html>
